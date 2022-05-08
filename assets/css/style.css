@@ -1,0 +1,636 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500&display=swap');
+
+@font-face {
+    font-family: Larish Semibold;
+    src: url('../fonts/LarishNeueSemibold.woff');
+}
+
+@font-face {
+    font-family: Larish Neue Semibold;
+    src: url('../fonts/Larish\ Neue\ Semibold.woff2');
+}
+
+/* Farbe: #fff / #000
+ */
+
+/* font-family: 'Work Sans', sans-serif; */
+
+/* ====================================================
+                GENERAL STYLES
+===================================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+h1 {
+    font-family: Larish Semibold;
+    font-size: 10rem;
+}
+
+h2 {
+    font-family: Larish Semibold;
+    font-size: 3rem;
+}
+
+p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2rem;
+}
+
+/* ====================================================
+                HEADER STYLES
+===================================================== */
+
+header {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+header div {
+    display: flex;
+    height: 25vh;
+    margin-bottom: 10vh;
+}
+
+header div div:nth-of-type(1) {
+    border-right: 1px solid rgb(76, 76, 76);
+    width: 50%;
+}
+
+header h1:nth-of-type(2) {
+    -webkit-text-stroke: 1px #fff;
+    color: #000;
+}
+
+header section {
+    margin: 15vh 10vw 0 10vw;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10vh;
+}
+
+header section img {
+    width: 80px;
+}
+
+header section button {
+    border: 1px solid #fff;
+    background-color: #000;
+    color: #fff;
+    font-size: 2.4rem;
+    padding: 15px 40px;
+    cursor: pointer;
+    font-family: 'Work Sans', sans-serif;
+}
+
+header section button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+/* ====================================================
+                MAIN STYLES
+===================================================== */
+
+.map {
+    background-color: #000;
+    color: #fff;
+    padding: 25vh 10vw 20vh 10vw;
+    ;
+    background-image: url('../img/map.svg');
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: 40%;
+}
+
+.map p:first-of-type {
+    margin-top: 15vh;
+}
+
+.stuck {
+    position: relative;
+    padding: 50vh 30vw 50vh 30vw;
+}
+
+.stuck p {
+    font-size: 1.8rem;
+    line-height: 2;
+}
+
+.stuck p:first-of-type {
+    padding-bottom: 100vh;
+}
+
+.stuck img {
+    position: absolute;
+    width: 20%;
+}
+
+.stuck img:nth-of-type(1) {
+    top: -10vh;
+    right: 10vw;
+    width: 25%;
+}
+
+.stuck img:nth-of-type(2) {
+    top: 40vh;
+    left: 5vw;
+    width: 20%;
+}
+
+.stuck img:nth-of-type(3) {
+    top: 100vh;
+    right: 0;
+    width: 20%;
+}
+
+.stuck img:nth-of-type(4) {
+    top: 120vh;
+    left: 15vw;
+    width: 25%;
+}
+
+.stuck img:nth-of-type(5) {
+    top: 150vh;
+    right: 15vw;
+    width: 25%;
+}
+
+.stuck img:nth-of-type(6) {
+    bottom: 50vh;
+    left: 0;
+    width: 20%;
+}
+
+.stuck img:nth-of-type(7) {
+    bottom: -10vh;
+    right: 20vw;
+    width: 30%;
+    z-index: 1;
+}
+
+.golden {
+    background-color: #000000;
+    color: #fff;
+    position: relative;
+    padding-bottom: 100vh;
+}
+
+.golden article {
+    display: flex;
+    padding: 15vh 10vw;
+}
+
+.golden article div:nth-of-type(1) {
+    width: 50%;
+    padding-right: 20vw;
+}
+
+.golden article div:nth-of-type(2) {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.golden article div:nth-of-type(2) p {
+    font-size: 1.8rem;
+    padding-top: 5vh;
+}
+
+.golden img:nth-of-type(1) {
+    position: absolute;
+    height: 110vh;
+    left: 10vw;
+    bottom: -20vh;
+}
+
+.golden img:nth-of-type(2) {
+    position: absolute;
+    height: 70vh;
+    right: 15vw;
+    bottom: -10vh;
+}
+
+.poppy {
+    position: relative;
+    padding: 10vh 0 130vh 0;
+}
+
+.poppy article {
+    display: flex;
+    padding: 15vh 10vw;
+}
+
+.poppy article div:nth-of-type(1) {
+    width: 50%;
+    padding-right: 20vw;
+}
+
+.poppy article div:nth-of-type(2) {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.poppy article div:nth-of-type(2) p {
+    font-size: 1.8rem;
+    padding-top: 5vh;
+}
+
+.poppy img:nth-of-type(1) {
+    position: absolute;
+    height: 110vh;
+    right: 10vw;
+    bottom: 10vw;
+}
+
+.poppy img:nth-of-type(2) {
+    position: absolute;
+    height: 70vh;
+    left: 15vw;
+    bottom: 30vh;
+}
+
+.poppy img:nth-of-type(3) {
+    position: absolute;
+    top: -15vh;
+    right: -6vw;
+    bottom: 30vh;
+    width: 25vw;
+    z-index: -1;
+    animation-name: rotation;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0)
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+/* ====================================================
+                FOOTER STYLES
+===================================================== */
+
+footer {
+    background-color: #000;
+    color: white;
+    padding: 10vh 10vw 5vh 10vw;
+    position: relative;
+    overflow: clip;
+}
+
+footer p {
+    line-height: 2;
+}
+
+footer h3 {
+    font-family: Larish Semibold;
+    font-size: 3.5rem;
+    padding: 3vh 44vw 3vh 0;
+}
+
+footer button {
+    border: 1px solid #fff;
+    background-color: #000;
+    color: #fff;
+    font-size: 2.4rem;
+    padding: 15px 40px;
+    cursor: pointer;
+    font-family: 'Work Sans', sans-serif;
+}
+
+footer button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+footer div {
+    padding-top: 10vh;
+}
+
+footer div img {
+    height: 30px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+
+footer article {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer article div img:nth-of-type(1) {
+    height: 50px;
+}
+
+footer section {
+    position: absolute;
+    background-color: #fff;
+    top: 10vh;
+    right: -30vw;
+    transform: rotate(45deg);
+}
+
+footer section p {
+    -webkit-text-stroke: 1px #000;
+    font-family: Larish Semibold;
+    font-size: 8rem;
+    animation-name: banner;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+footer section p span {
+    color: #000;
+    font-family: Larish Semibold;
+    font-size: 8rem;
+}
+
+@keyframes banner {
+    0% {
+        transform: translate(0);
+    }
+
+    100% {
+        transform: translate(-5%);
+    }
+}
+
+@media screen and (max-width:992px) {
+
+    h1 {
+        font-size: 8rem;
+    }
+
+    .map {
+        background-size: 50%;
+    }
+
+    .stuck {
+        padding: 20vh 25vw 20vh 30vw;
+    }
+
+    .stuck p:first-of-type {
+        padding-bottom: 70vh;
+    }
+
+    .stuck img:nth-of-type(2) {
+        top: 30vh;
+    }
+
+    .stuck img:nth-of-type(3) {
+        top: 75vh;
+    }
+
+    .stuck img:nth-of-type(4) {
+        top: 85vh;
+    }
+
+    .stuck img:nth-of-type(5) {
+        top: 110vh;
+    }
+
+    .stuck img:nth-of-type(6) {
+        bottom: 40vh;
+    }
+
+    .golden {
+        padding-bottom: 60vh;
+    }
+
+    .golden img:nth-of-type(1) {
+        height: 80vh;
+        bottom: -10vh;
+    }
+
+    .golden img:nth-of-type(2) {
+        height: 50vh;
+        bottom: -5vh;
+    }
+
+    .poppy {
+        padding: 10vh 0 80vh 0;
+    }
+
+    .poppy img:nth-of-type(2) {
+        height: 50vh;
+        left: 10vw;
+        bottom: 10vw;
+    }
+
+    .poppy img:nth-of-type(1) {
+        height: 70vh;
+        right: 10vw;
+        bottom: 10vw;
+    }
+
+    footer section p {
+        font-size: 5rem;
+    }
+
+    footer section p span {
+        font-size: 5rem;
+    }
+
+    footer h3 {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    h1 {
+        font-size: 5rem;
+    }
+
+    p {
+        font-size: 1.6rem;
+    }
+
+    header section {
+        margin: 10vh 10vw 0 10vw;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    header section img {
+        padding-top: 10vh;
+    }
+
+    .map {
+
+        padding: 10vh 10vw 10vh 10vw;
+        background-size: 60%;
+    }
+
+    .map p:first-of-type {
+        margin-top: 15vh;
+    }
+
+    .stuck {
+        padding: 10vh 10vw 10vh 10vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .stuck p:first-of-type {
+        padding-bottom: 5vh;
+    }
+
+    .stuck img {
+        position: static;
+        padding-top: 2vh;
+    }
+
+    .stuck img:nth-of-type(1) {
+        width: 80vw;
+        padding-top: 10vh;
+    }
+
+    .stuck img:nth-of-type(2) {
+        width: 80vw;
+    }
+
+    .stuck img:nth-of-type(3) {
+        width: 80vw;
+    }
+
+    .stuck img:nth-of-type(4) {
+        width: 80vw;
+    }
+
+    .stuck img:nth-of-type(5) {
+        width: 80vw;
+    }
+
+    .stuck img:nth-of-type(6) {
+        width: 80vw;
+    }
+
+    .stuck img:nth-of-type(7) {
+        width: 80vw;
+    }
+
+    .golden {
+        padding-bottom: 10vh;
+    }
+
+    .golden article {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .golden article div:nth-of-type(1) {
+        width: 100%;
+        margin-bottom: 10vh;
+    }
+
+    .golden article div:nth-of-type(2) {
+        width: 100%;
+    }
+
+    .golden img:nth-of-type(1) {
+        position: static;
+        width: 80vw;
+        margin-left: 10vw;
+    }
+
+    .golden img:nth-of-type(2) {
+        position: static;
+        width: 80vw;
+        padding-top: 2vh;
+        margin-left: 10vw;
+    }
+
+    .poppy {
+        padding: 10vh 0 10vh 0;
+    }
+
+    .poppy article {
+        flex-direction: column;
+    }
+
+    .poppy article div:nth-of-type(1) {
+        width: 100%;
+        margin-bottom: 10vh;
+    }
+
+    .poppy article div:nth-of-type(2) {
+        width: 100%;
+    }
+
+    .poppy img:nth-of-type(1) {
+        position: static;
+        width: 80vw;
+        margin-left: 10vw;
+    }
+
+    .poppy img:nth-of-type(2) {
+        position: static;
+        width: 80vw;
+        height: auto;
+        margin-left: 10vw;
+        padding-top: 2vh;
+    }
+
+    .poppy img:nth-of-type(3) {
+        position: absolute;
+        top: -40vh;
+        left: 10vw;
+        width: 80vw;
+    }
+
+    footer {
+        background-color: #000;
+        color: white;
+        padding: 15vh 10vw 5vh 10vw;
+        position: relative;
+        overflow: clip;
+    }
+
+    footer h3 {
+        padding: 3vh 0;
+    }
+
+    footer div {
+        padding-top: 5vh;
+    }
+
+    footer section {
+        position: absolute;
+        top: 1px;
+        right: -150%;
+        left: 0;
+        transform: rotate(0deg);
+    }
+
+    footer section p {
+        font-size: 3rem;
+    }
+
+    footer section p span {
+
+        font-size: 3rem;
+    }
+}
