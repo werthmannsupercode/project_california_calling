@@ -1,6 +1,6 @@
 # project_california_calling
 
-🌸 Hey und willkommen im Project <b>California Calling<b> 🌸
+🌸 Hey und willkommen im Project <b>California Calling</b> 🌸
   
 Die Seite ist responsiv gestaltet mit einer<br>
   - 🖥 Desktop-Version (max. 1440px Breite)<br>
